@@ -1,0 +1,364 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.home
+{
+    background-image:url(../images/slideshow-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+   
+    
+}
+
+
+.navbar
+{
+
+    width: 80%;
+    margin: auto;
+
+}
+
+.navlink ul li
+{
+
+    display:inline-block;
+    margin: 10px;
+      
+}
+
+.navlink ul a
+{
+    text-decoration: none;
+    font-size: 18px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+}
+
+.navlink ul a:hover li
+{
+    color: #f25454;
+}
+
+.home .navbar .navlink ul a:hover .fab
+{
+    color: #f25454 !important;
+}
+
+ul i
+{
+    margin: 5px;
+}
+
+.title h2
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 3.2rem;
+    line-height: 38px;
+    font-weight: 700;
+    margin-top: 25px;
+
+
+}
+
+.title h1
+{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+    color: #f1f1f1;;
+
+    
+
+
+}
+
+.container p
+{
+    font-size: 19px;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.about
+{
+
+    padding: 90px;
+}
+
+.item img
+{
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+
+}
+
+.title
+{
+    text-align: center;
+    margin: 0;
+    
+}
+
+.position
+{
+    text-align: center;
+    color: #666;
+}
+
+.item
+{
+
+    position: relative;
+    overflow: hidden;
+}
+.shadow
+{
+    background-color:rgba(242, 84, 84, 0.85);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:100%;
+    left:0;
+    transition: transform 0.5s;
+   
+    
+}
+.shadow a 
+{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    
+}
+
+.item:hover .shadow
+{
+    top: 0;
+}
+
+.item:hover img
+{
+    transform:scale(1.2); 
+}
+
+h5:hover
+{
+    color: tomato;
+}
+
+.line
+{
+    line-height: 50px;
+    font-weight: 400;
+    margin: 0;
+    font-size: 32px;
+}
+
+.btn
+{
+    background-color: #f25454;
+    color: #fff;
+    border-radius: 3px;
+    padding: 14px 30px;
+    line-height: 1;
+    font-weight: 700;
+    
+}
+
+.info-box
+{
+    margin: 100px;
+}
+
+.services
+{
+    background-color: #fafafacb;
+}
+
+.service-text
+{
+  
+    padding: 8px;
+}
+
+.service-text p
+{
+  
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.service-text h3
+{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.service-text:hover h3
+{
+    color: tomato;
+}
+
+.touch
+{
+    background-color: #f1f1f1;
+}
+
+.Get
+{
+    font-size: 32px;
+    color: #282828;
+    line-height: 32px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.iconn
+{
+
+    display: flex;
+    font-size: 28px;
+    color: tomato;    
+}
+
+.Address
+{
+    font-size: 26px;
+    color: #282828;
+    font-weight: 600;
+    line-height: 24px;
+    margin-left: 10px;
+}
+
+.para
+{
+    margin-left: 40px;
+    
+}
+
+.iconn:hover .Address
+{
+    color: tomato;
+}
+
+.field-name
+{
+    width: 100%;
+    line-height: 1;
+    padding: 14px 18px;
+    color: #a6a6a6;
+    border-radius: 3px;
+    border: 2px solid #eee;
+    background-color: #fff;
+
+}
+
+.field-message
+{
+    height: 110px;
+    width: 100%;
+    line-height: 1;
+    padding: 14px 18px;
+    color: #a6a6a6;
+    border-radius: 3px;
+    border: 2px solid #eee;
+    background-color: #fff;
+
+}
+
+.field-name:hover
+{
+    border:2px solid tomato;
+}
+
+.field-message:hover
+{
+    border:2px solid tomato;
+}
+
+.button
+{
+    border: 2px solid transparent;
+    padding: 9px;
+    width: 160px;
+    color: #fff;
+    background-color: #f25454;
+    touch-action: manipulation;
+    
+}
+
+.footer
+{
+    background-image: url(../images/dotted-map.png);
+    background-position: center center;
+    background-size: contain;
+    height: 400px;
+    background-color:#222;
+}
+
+.footer-img
+{
+    width: 100%;
+    padding: 50px;
+}
+
+.widget h5
+{
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.widget .textwidget p
+{
+    margin: 0px; 
+    
+}
+
+
+.widget .textwidget a
+{
+    color:#b0b0b0 !important;
+    text-decoration-line: none;
+    
+    
+    
+}
+
+.widget .textwidget .anchor a
+{
+    color:#b0b0b0 !important;
+    border: solid 1px white;
+    border-radius: 2px;
+    padding: 2px;
+    line-height: 2.5;
+    
+}
+
+.anchor:hover a
+{
+    color: #f25454;
+}
+
+.copyright
+{
+    background-color:#1a1a1a;
+  
+}
+
+.icontfab i
+{
+    font-size: 20px;
+    margin: 0 0 15px 15px;
+}
+.navbarBG
+{
+    background-color: #09c;
+    width: 100%;
+}
